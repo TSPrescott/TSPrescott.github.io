@@ -1,0 +1,235 @@
+/******************** Reset Styles *********************/
+
+@import 'normalize.css';
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
+
+/****************** Base Syles *************************/
+body {
+    background-color: #252839;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Special Elite', cursive;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav a {
+    background-color: #b3c2bf;
+    border-radius: 10px;
+    border: 2px solid #f2f2f2;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.green-text {
+    color: green;
+    font-size: 150%;
+    margin-bottom: 0;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.red-text {
+    color: red;
+}
+
+.blue-text {
+    color: dodgerblue;
+}
+
+.orange-text {
+    color: orangered;
+}
+
+
+/****************** Layout Styles ************************/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+.container {
+    width: 100%;
+    padding: 10px;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+nav a {
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    width: 60px;
+    margin-left: 40%;
+}
+
+nav a:hover {
+    background-color: #f2f2f2;
+}
+
+header {
+    width: 100%;
+}
+
+.header-title {
+    background-color: #f2f2f2;
+    border: 5px double #b3c2bf;
+    border-radius: 2px;
+}
+
+.header-title h1 {
+    padding: 5px;
+}
+.header-right {
+    margin: 10px;
+}
+
+header img {
+    width: 70%;
+    border: 5px double #f2f2f2;
+}
+
+section {
+    padding: 5px;
+    background-color: #b3c2bf;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    text-align: center;
+    border: 2px solid #f2f2f2;
+    border-radius: 3px;
+}
+
+.bio-pic {
+    transform: rotate(270deg);
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid #f2f2f2;
+    margin-top: -10px;
+}
+
+section p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.skill {
+   width: 150px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #252839;
+    border-radius: 50%;
+}
+
+.project-container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.projects {
+    width: 150px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #252839;
+    border-radius: 5px;
+}
+
+.projects h4 {
+    background-color: #f2f2f2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.projects img {
+    width: 140px;
+}
+
+footer {
+    bottom: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+   /* border-top: 2px solid white; */
+}
+
+footer i {
+    color: #252839;
+    margin: 5px;
+}
+
+.to-top {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    nav a {
+        display: inline-block;
+        margin: 20px;
+    }
+
+    header img {
+        width: 50%;
+    }
+
+    .skill {
+        display: inline-block;
+        margin: 60px;
+    }
+
+    .projects {
+        display: inline-block;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+}
+
+
+
+
+/* Medium devices (desktops, 990px and up) */
+@media (min-width: 1000px) {
+
+    .header-title {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+
+    .skill {
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+}
+
+}
