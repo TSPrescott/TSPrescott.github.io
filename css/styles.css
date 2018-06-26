@@ -121,15 +121,6 @@ section {
     border-radius: 3px;
 }
 
-.bio-pic {
-    image-orientation: from-image;
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    border: 2px solid #f2f2f2;
-    margin-top: -10px;
-}
-
 section p {
     padding-left: 10px;
     padding-right: 10px;
