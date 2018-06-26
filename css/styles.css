@@ -122,7 +122,7 @@ section {
 }
 
 .bio-pic {
-    transform: rotate(270deg);
+    transform: rotate(90deg);
     width: 110px;
     height: 110px;
     border-radius: 50%;
@@ -214,6 +214,7 @@ footer i {
 
 
 
+
 /* Medium devices (desktops, 990px and up) */
 @media (min-width: 1000px) {
 
@@ -230,6 +231,29 @@ footer i {
         margin-bottom: 5px;
     }
 
-}
+    .green-text {
+    color: green;
+    font-size: 200%;
+    margin-bottom: 0;
+    }
 
+    .yellow-text {
+    color: yellow;
+    font-size: 150%;
+    }
+
+    .red-text {
+    color: red;
+    font-size: 150%;
+    }
+
+    .blue-text {
+    color: dodgerblue;
+    font-size: 150%;
+    }
+
+    .orange-text {
+    color: orangered;
+    font-size: 150%;
+    }  
 }
