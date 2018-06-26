@@ -42,16 +42,18 @@ p {
 
 .green-text {
     color: green;
-    font-size: 150%;
+    font-size: 1.5em;
     margin-bottom: 0;
 }
 
 .yellow-text {
     color: yellow;
+    font-size: 0.85em;  
 }
 
 .red-text {
     color: red;
+    font-size: 0.93em;
 }
 
 .blue-text {
@@ -60,6 +62,12 @@ p {
 
 .orange-text {
     color: orangered;
+    font-size: 0.93em;
+}
+
+.light-green {
+    color: lightgreen;
+    font-size: 0.85em;
 }
 
 
