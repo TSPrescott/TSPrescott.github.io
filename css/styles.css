@@ -223,28 +223,22 @@ footer i {
     }
 
     .green-text {
-    color: green;
     font-size: 200%;
-    margin-bottom: 0;
     }
 
     .yellow-text {
-    color: yellow;
     font-size: 150%;
     }
 
     .red-text {
-    color: red;
     font-size: 150%;
     }
 
     .blue-text {
-    color: dodgerblue;
     font-size: 150%;
     }
 
     .orange-text {
-    color: orangered;
     font-size: 150%;
     }  
 }
