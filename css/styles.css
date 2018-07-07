@@ -67,7 +67,8 @@ p {
 }
 
 .light-green {
-    color: #b0fca9;
+    color: #6bef74;
+    font-size: 0.85em; 
 }
 
 
@@ -228,25 +229,5 @@ footer i {
         margin-right: 90px;
         margin-top: 5px;
         margin-bottom: 5px;
-    }
-
-    .green-text {
-    font-size: 200%;
-    }
-
-    .yellow-text {
-    font-size: 150%;
-    }
-
-    .red-text {
-    font-size: 150%;
-    }
-
-    .blue-text {
-    font-size: 150%;
-    }
-
-    .orange-text {
-    font-size: 150%;
-    }  
+    } 
 }
