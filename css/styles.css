@@ -144,8 +144,8 @@ section p {
    border-radius: 50%;
 }
 
-.skill h5 {
-   margin: 5px; 
+.skill i {
+   margin-bottom: 5px; 
 }
 
 .project-container {
