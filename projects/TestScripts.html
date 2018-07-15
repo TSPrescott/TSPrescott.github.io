@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/TestScripts.css">
+</head>
+<body>
+    
+       
+        <div class="container">
+            <div class="game-area">
+                    <form onsubmit="return GameEngine()">
+                        <div class="question-style">
+                            <h3 id="mainQuestion" class="main-text">Welcome to the Bizarre Fact Quiz! Do you have what it takes to answer all the questions correctly?</h3>
+                        </div>
+                        
+                        <div class="q-container" id="qContainer">
+                        <div class="answer-style">
+                            <h4 id="choiceA" name="option"></h4>
+                            <input type="radio" id="checkA" name="userChoice">
+                        </div>
+                        <div class="answer-style">
+                            <h4 id="choiceB" name="option"></h4>
+                            <input type="radio" id="checkB" name="userChoice">
+                        </div>
+                        <div class="answer-style">
+                            <h4 id="choiceC" name="option"></h4>
+                            <input type="radio" id="checkC" name="userChoice">
+                        </div>
+                        <div class="answer-style">
+                            <h4 id="choiceD" name="option"></h4>
+                            <input type="radio" id="checkD" name="userChoice">
+                        </div>
+                            </div>
+                        <br>
+                        <button type="submit" onclick="showContent()" id="myBtn">Play</button>
+                    </form>
+                
+            </div>
+                    
+        </div>
+
+    
+    
+    <script type="text/javascript" src="scripts/TestScripts.js"></script>
+</body>   
+</html>

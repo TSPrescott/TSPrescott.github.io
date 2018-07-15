@@ -1,0 +1,105 @@
+/******************** Reset Styles *********************/
+
+@import 'normalize.css';
+
+html {
+    box-sizing: border-box;
+}
+
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
+
+/****************** Base Syles *************************/
+body {
+    background-color: slategray;
+}
+
+h1, h2, h3 {
+    font-family: 'Lobster', cursive;
+}
+
+h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-text {
+    font-family: 'Raleway', sans-serif;
+}
+
+/****************** Layout Styles ************************/
+header {
+    text-align: center;
+    border: 5px solid gainsboro;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+
+section {
+    margin: 0px;
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    background-color: #c5d2e0;
+    border-radius: 10px;
+    border: 5px solid #f2f2f2;
+}
+
+.game-area {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 25px;
+    background-color: #e6ffd6;
+}
+
+.question-style {
+    background-color: white;
+    margin: 0;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 55px;
+    word-spacing: .5em;
+}
+
+.answer-style {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    visibility: inherit;
+}
+
+.answer-style:hover {
+    background-color: gainsboro;
+}
+
+.answer-style h4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    visibility: inherit;
+}
+
+.answer-style input {
+    visibility: inherit;
+}
+
+button {
+    padding: 5px;
+    background-color: gainsboro;
+}
+
+.q-container {
+    display: none;
+} 
+    
