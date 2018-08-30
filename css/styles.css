@@ -204,14 +204,12 @@ footer i {
     }
 
     .skill {
-        display: inline-block;
         margin: 60px;
     }
 
     .projects {
         display: inline-block;
-        margin-left: 90px;
-        margin-right: 90px;
+        margin: 70px;
     }
 }
 
@@ -234,9 +232,4 @@ footer i {
         margin-top: 5px;
         margin-bottom: 5px;
     } 
-    
-    .projects {
-        display: inline-block;
-        float: left;
-    }
 }
