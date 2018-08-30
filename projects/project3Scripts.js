@@ -502,7 +502,7 @@ var GameEngine = (function(choice, roomNum) {
                 if(stringToMatch.test(choice)) {
                     
                     if (exposer.roomList[roomNo].items[i].isHiding === true) {
-                        pic.src = "css/TextAdvGirl.png";
+                        pic.src = "TextAdvGirl.png";
                         screen.innerHTML = exposer.story.GameOver.message;
                     } else {
                         screen.innerHTML = exposer.roomList[roomNo].items[i].description;
