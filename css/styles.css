@@ -208,8 +208,7 @@ footer i {
     }
 
     .projects {
-        display: inline-block;
-        margin: 70px;
+        margin: 60px;
     }
 }
 
@@ -227,6 +226,13 @@ footer i {
 
 
     .skill {
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    } 
+    
+    .projects {
         margin-left: 90px;
         margin-right: 90px;
         margin-top: 5px;
