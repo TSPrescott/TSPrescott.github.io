@@ -204,10 +204,12 @@ footer i {
     }
 
     .skill {
+        display: inline-block;
         margin: 60px;
     }
 
     .projects {
+        display: inline-block;
         margin: 60px;
     }
 }
