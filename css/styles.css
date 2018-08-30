@@ -237,6 +237,6 @@ footer i {
     
     .projects {
         display: inline-block;
-        margin: 10px;
+        float: left;
     }
 }
