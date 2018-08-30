@@ -140,7 +140,7 @@ section p {
    margin-bottom: 30px;
    margin-left: auto;
    margin-right: auto;
-   border: 2px solid black;
+   border: 2px solid #252839;
    border-radius: 50%;
 }
 
@@ -212,6 +212,10 @@ footer i {
     .projects {
         display: inline-block;
         margin: 60px;
+    }
+    
+    .projects img {
+        display: inline-block
     }
 }
 
