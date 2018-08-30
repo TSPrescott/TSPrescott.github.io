@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+    background: url("TextAdvSunlight.jpg");
+    background-size: auto;
+}
+
+.container {
+    border: 1px solid gainsboro;
+    padding-top: 3px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 20%;
+    background-color: #191919;
+}
+
+.story {
+    border-radius: 5px;
+    margin: 10px;
+    height: 360px;
+    background-color: #f9fbff;
+    
+}
+
+
+form p {
+    line-height: 25px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-size: 150%;
+    padding: 10px;
+    font-family: 'Bilbo', cursive;
+}
+
+.sibling-pic {
+    padding: 0;
+    height: 150px;
+    position: fixed;
+    top: 50%;
+    right: 35%;
+}
+
+@media (min-width: 768px) {
+    .container {
+        
+        margin: 75px;
+    }
+    
+    body {
+        background-size: cover;
+    }
+    
+    .sibling-pic {
+        top: 45%;
+        right: 46%;
+    }
+}
