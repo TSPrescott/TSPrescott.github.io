@@ -11,7 +11,7 @@ var exposer = (function() {
             {
             name: "kitchen", 
             roomNumber: 0,
-            description: "You look around the kitchen as the last rays of the day's sun illuminate the kitchen <b>table</b>. <b>Cupboards</b> rest on the wall above the kitchen <b>sink</b>. To the north is the living room. To the east is a laundry room.",
+            description: "You look around the kitchen as the last rays of the day's sun illuminate the <b>kitchen table</b>. <b>Cupboards</b> rest on the wall above the kitchen <b>sink</b>. To the north is the living room. To the east is a laundry room.",
             items: [
                 {
                     name: "table",
