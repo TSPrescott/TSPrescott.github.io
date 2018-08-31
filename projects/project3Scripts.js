@@ -107,7 +107,7 @@ var exposer = (function() {
             {   
             name: "laundry", 
             roomNumber: 2,
-            description: "A laundry machine takes up most of the room in here. There are cabinets that rest above the machines, and a hamper filled with clothes sits beside the washer. The door frame has tick marks that show how tall you were at certain points in your life.  To the west is the kitchen.",
+            description: "A <b>laundry machine</b> takes up most of the room in here. There are <b>cabinets</b> that rest above the machines, and a <b>hamper</b> filled with clothes sits beside the washer. The <b>door frame</b> has tick marks that show how tall you were at certain points in your life.  To the west is the kitchen.",
             items: [
                 {
                     name: "machine",
@@ -123,7 +123,7 @@ var exposer = (function() {
                 
                 {
                     name: "frame",
-                    description: "Looks like I was three feet tall in May of 1994.",
+                    description: "Looks like you were three feet tall in May of 1994.",
                     pattern: /frame/
                 },
                 
