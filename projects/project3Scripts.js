@@ -11,7 +11,7 @@ var exposer = (function() {
             {
             name: "kitchen", 
             roomNumber: 0,
-            description: "You look around the kitchen as the last rays of the day's sun illuminate the kitchen table. Cupboards rest on the wall above the kitchen sink. To the north is the living room. To the east is a laundry room.",
+            description: "You look around the kitchen as the last rays of the day's sun illuminate the kitchen <b>table</b>. <b>Cupboards</b> rest on the wall above the kitchen <b>sink</b>. To the north is the living room. To the east is a laundry room.",
             items: [
                 {
                     name: "table",
@@ -21,7 +21,7 @@ var exposer = (function() {
                 },
                 {
                     name: "sink",
-                    description: "A few dirty dishes occupy the sink. The cupboards below only hold cleaning supplies, not your sister.",
+                    description: "A few dirty dishes occupy the sink. The cabinets below only hold cleaning supplies, not your sister.",
                     pattern: /sink/
                 },
                 {
@@ -59,7 +59,7 @@ var exposer = (function() {
             {   
             name: "living room", 
             roomNumber: 1,
-            description: "A couch sits against the wall. A curtain covers the large sliding glass door. Across from it a tv sits atop a media center. A coffee table lies in the middle of the room. To the east is a hallway leading to the rest of the home. The kitchen is back south.",
+            description: "A <b>couch</b> sits against the wall. A <b>curtain</b> covers the large sliding glass door. Across from it a <b>tv</b> sits atop a media center. A <b>coffee table</b> lies in the middle of the room. To the east is a hallway leading to the rest of the home. The kitchen is back south.",
             items: [
                 {
                     name: "couch",
@@ -76,7 +76,7 @@ var exposer = (function() {
                 
                 {
                     name: "tv",
-                    description: "This is where the family huddles every halloween to watch scary movies and eat sugar. Your sister may be the champion, but even she can't hide here.",
+                    description: "The family dog watches tv with everyone. I'm convinced he's writing movie reviews under the handle woof. You check the media center even though each cabinet only holds roughly twenty vhs tapes. Your sister may be the champion, but even she can't hide here.",
                     pattern: /tv/
                 }
                     ],
@@ -196,7 +196,7 @@ var exposer = (function() {
         {   
             name: "playerRoom", 
             roomNumber: 4,
-            description: "Your bed sits in the far corner of the room. A black nightstand rests beside the bed, and a desk sits on the opposing wall. Your closet door is partially open, revealing the silhouette of a pair of shoes. To the north is the hallway.",
+            description: "Your <b>bed</b> sits in the far corner of the room. A black <b>nightstand</b> rests beside the bed, and a <b>desk</b> sits on the opposing wall. Above it a six foot wide poster of your favorite movie hangs. Your <b>closet</b> door is partially open, revealing the silhouette of a pair of shoes. To the north is the hallway.",
             items: [
                 {
                     name: "bed",
@@ -209,6 +209,12 @@ var exposer = (function() {
                     name: "stand",
                     description: "A Captain Underpants book rests on the nightstand. The drawer contains your school ID card, chewing gum, pens, and other odds and ends.",
                     pattern: /stand/
+                },
+                
+                {
+                    name: "desk",
+                    description: "Your computer sits next to bag of trail mix. Have to have plenty of energy for your travels.",
+                    pattern: /desk/
                 },
                 
                 {
@@ -245,11 +251,11 @@ var exposer = (function() {
         {   
             name: "sun room", 
             roomNumber: 5,
-            description: "Plants line the glass, slightly obscuring the view of the dogwood tree in the front yard. A large basket holding blankets rests on the floor in the far corner of the room. To the north is your parents' master bedroom. To the south lies your sister's room.",
+            description: "<b>Plants</b> line the glass, slightly obscuring the view of the dogwood tree in the front yard. A large <b>basket</b> holding blankets rests on the floor in the far corner of the room. To the north is your parents' master bedroom. To the south lies your sister's room.",
             items: [
                 {
                     name: "plants",
-                    description: "A closer inspection reveals the plants are fake plastic. Much easier to maintain than the real deal.",
+                    description: "A closer inspection reveals the plants are fake plastic. Much easier to maintain than the real deal. Plus they don't attract bugs.",
                     pattern: /plants/
                 },
                 
@@ -287,7 +293,7 @@ var exposer = (function() {
         {   
             name: "sis room", 
             roomNumber: 6,
-            description: "Your sister's room is sky blue with clouds painted along the top. Her bed is neatly made, the comforter almost exactly matching the blue walls. A cradle holds a baby doll to your left. A closed closet door lies on the other side of the room. To the north is the sun room.",
+            description: "Your sister's room is sky blue with clouds painted along the top. Her <b>bed</b> is neatly made, the comforter almost exactly matching the blue walls. A <b>cradle</b> holds a baby doll to your left. A closed closet door lies on the other side of the room. To the north is the sun room.",
             items: [
                 {
                     name: "bed",
@@ -329,7 +335,7 @@ var exposer = (function() {
         {   
             name: "master bedroom", 
             roomNumber: 7,
-            description: "You look around and see a white comforter on the bed, white walls, white carpet, and a black coffee table. The walls are adorned with red, white, and black abstract paintings. To the north lies the walk-in closet. To the south is the sun room.",
+            description: "You look around and see a white comforter on the <b>bed</b>, white walls, white carpet, and a black <b>coffee table</b>. The walls are adorned with red, white, and black abstract paintings. To the north lies the walk-in closet. To the south is the sun room.",
             items: [
                 {
                     name: "bed",
@@ -372,7 +378,7 @@ var exposer = (function() {
         {   
             name: "closet", 
             roomNumber: 8,
-            description: "You see what seems to you must be ten thousand coat hangers lining the walls to the left and right of you. At the end of the closet lies a large oak chest. A rectangular black carpet lies before the chest like a path. To the south is your parent's room.",
+            description: "You see what seems to you must be ten thousand coat hangers lining the walls to the left and right of you. At the end of the closet lies a large oak <b>chest</b>. A rectangular black carpet lies before the chest like a path. To the south is your parent's room.",
             items: [
                 {
                     name: "chest",
