@@ -142,12 +142,12 @@ var exposer = (function() {
                 },
                 {
                     east: function() {
-                             currentRoom = currentRoom - 2;
+                             alert("can't go east.");
                     }
                 },
                 {
                     west: function() {
-                            alert("can't go west.");
+                            currentRoom = currentRoom - 2;
                     }
                 },
                 {
