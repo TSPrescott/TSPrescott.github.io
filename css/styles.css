@@ -173,6 +173,10 @@ section p {
     width: 140px;
 }
 
+.source {
+    margin-bottom: 75px;
+}
+
 footer {
     bottom: 0;
     background-color: #f2f2f2;
