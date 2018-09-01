@@ -166,11 +166,11 @@ var exposer = (function() {
         {   
             name: "hallway", 
             roomNumber: 3,
-            description: "The hallway is lined with pictures. Your bedroom is to the south. To the east is the sunroom. The living room is back west.",
+            description: "The hallway is lined with <b>pictures</b>. Your bedroom is to the south. To the east is the sunroom. The living room is back west.",
             items: [
                 {
                     name: "pictures",
-                    description: "You look at one of the pictures. It's from the family reunion last year. A smile spreads across your lips as you just notice the bunny ears your sister gave you.",
+                    description: "You look at one of the pictures. It's from the family reunion last year. A smile spreads across your lips as you notice the bunny ears your sister gave you.",
                     pattern: /pictures/
                 }
             ],
