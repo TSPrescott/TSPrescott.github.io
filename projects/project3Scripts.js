@@ -78,6 +78,12 @@ var exposer = (function() {
                     name: "tv",
                     description: "The family dog watches tv with everyone. I'm convinced he's writing movie reviews under the handle woof. You check the media center even though each cabinet only holds roughly twenty vhs tapes. Your sister may be the champion, but even she can't hide here.",
                     pattern: /tv/
+                },
+                
+                {
+                    name: "table",
+                    description: "A large hard cover book titled <i>Riding the Route: A traveller's guide to Route 66</i> lies in the middle of the table. Shockingly, you find dog hair underneath the table.",
+                    pattern: /couch/
                 }
                     ],
             dir: [
