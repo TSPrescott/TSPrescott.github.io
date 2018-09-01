@@ -82,7 +82,7 @@ var exposer = (function() {
                 {
                     name: "table",
                     description: "A large hard cover book titled <i>Riding the Route: A traveller's guide to Route 66</i> lies in the middle of the table. Shockingly, you find dog hair underneath the table.",
-                    pattern: /couch/
+                    pattern: /table/
                 }
                     ],
             dir: [
