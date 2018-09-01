@@ -1,4 +1,3 @@
-//Please Pardon the Global Pollution
 var currentRoom = 0;
 
 /**********************************************House/Story Module*********************************************************************/
@@ -15,7 +14,7 @@ var exposer = (function() {
             items: [
                 {
                     name: "table",
-                    description: "Graded papers are scattered across the table.",
+                    description: "Graded papers are scattered across the table. You pick one up. Looks like Rachel Amber got an F. I suppose that's what happens when you answer every question with, 'Turtles are cool.'.",
                     pattern: /table/,
                     isHiding: false
                 },
